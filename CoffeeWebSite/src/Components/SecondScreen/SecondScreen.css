@@ -1,8 +1,70 @@
 .secondpage {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #E8D5C4;
+  padding: 0 80px;
+  position: relative;
+}
+
+.heavenimage {
+  position: relative;
+  flex: 1;
+  max-width: 400px;
+}
+
+.heavenimage img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.secondpagecontent {
+  flex: 1;
+  padding-left: 80px;
+  max-width: 500px;
+}
+
+.secondpagecontent h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #2C1810;
+  margin-bottom: 30px;
+  font-family: 'Georgia', serif;
+}
+
+.secondpagecontent p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #5D4E37;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+.secondpagebutton {
+  background-color: #2C1810;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.secondpagebutton::after {
+  content: '→';
+  font-size: 1.2rem;
+}
+
+.secondpagebutton:hover {
+  background-color: #1a0f08;
+  transform: translateX(5px);
+  transition: all 0.3s ease;
 }
