@@ -19,6 +19,7 @@ function Stats() {
           <p>Happy Customer</p>
         </div>
       </div>
+      
       </>
   )
 }
