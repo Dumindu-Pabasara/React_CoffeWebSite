@@ -18,7 +18,9 @@
 .heavenimage img {
   width: 100%;
   height: auto;
-  
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
 }
 
 .secondpagecontent {
@@ -31,8 +33,7 @@
   font-size: 3.5rem;
   font-weight: bold;
   color: #2C1810;
-  margin-bottom: 30px;
-  font-family: 'Georgia', serif;
+  
 }
 
 .secondpagecontent p {
