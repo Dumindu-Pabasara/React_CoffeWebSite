@@ -9,15 +9,15 @@
 .hero-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 80px;
 }
 
 .hero-title {
   font-size: 4rem;
   font-weight: bold;
-  line-height: 1.1;
-  margin-bottom: 20px;
-  color: white;
+  
 }
 
 .hero-description {
