@@ -26,7 +26,8 @@
   font-size: 1.1rem;
   line-height: 1.6;
   color: white;
-  
+  margin-bottom: 30px;
+  opacity: 0.8;
 }
 
 .hero-buttons {
@@ -40,10 +41,7 @@
   border: none;
   padding: 15px 30px;
   /* border-radius: 8px; */
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
+  
   display: flex;
   align-items: center;
   gap: 8px;
