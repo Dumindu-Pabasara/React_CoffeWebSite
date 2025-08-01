@@ -58,7 +58,9 @@
 
 .btn-secondary {
   background: transparent;
-  
+  color: white;
+  border: 2px solid white;
+  padding: 15px 30px;
   /* border-radius: 8px; */
   font-size: 1rem;
   font-weight: 600;
@@ -76,8 +78,7 @@
 .hero-image {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .coffee-cup {
