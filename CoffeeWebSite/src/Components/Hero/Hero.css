@@ -17,15 +17,16 @@
 .hero-title {
   font-size: 4rem;
   font-weight: bold;
-  
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: white;
 }
 
 .hero-description {
   font-size: 1.1rem;
   line-height: 1.6;
   color: white;
-  margin-bottom: 30px;
-  opacity: 0.8;
+  
 }
 
 .hero-buttons {
