@@ -44,7 +44,9 @@
 
 .header-actions {
   display: flex;
-  
+  align-items: center;
+  gap: 15px;
+  font-family:  Calibri;
   font-style: bold;
 }
 
@@ -52,8 +54,7 @@
   background: transparent;
   color: #fff;
   border: 1px solid #fff;
-  padding: 8px 20px;
-  border-radius: 5px;
+  
   cursor: pointer;
   transition: all 0.3s ease;
 }
