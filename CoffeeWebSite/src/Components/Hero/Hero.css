@@ -76,7 +76,8 @@
 
 /* Coffee Cup Animation */
 .hero-image {
-  
+  position: relative;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -84,10 +85,7 @@
 .coffee-cup {
   position: relative;
   width: 600px;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   margin-top: -250px;
 }
 
